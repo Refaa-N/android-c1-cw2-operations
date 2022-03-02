@@ -1,0 +1,11 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+        
+        int buget = 20;
+        System.out.println("Can I buy the gift" + (buget > 30 && buget < 80));
+        
+        int newBuget = 20*2;
+        System.out.println("Can I buy the gift" + (newBuget >30 && newBuget <80));
+    }
+}
